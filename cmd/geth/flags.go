@@ -62,6 +62,10 @@ var (
 		Name:  "testnet",
 		Usage: "[Use: --chain=morden] Morden network: pre-configured test network with modified starting nonces (replay protection)",
 	}
+	GoerliFlag = cli.BoolFlag{
+		Name:  "goerli",
+		Usage: "Görli network: pre-configured proof-of-authority test network",
+	}
 	DevModeFlag = cli.BoolFlag{
 		Name:  "dev",
 		Usage: "Developer mode: pre-configured private network with several debugging flags",

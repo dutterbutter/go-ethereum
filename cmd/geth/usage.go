@@ -215,6 +215,7 @@ var AppHelpFlagAndCommandGroups = []flagGroup{
 		},
 		Flags: []cli.Flag{
 			TestNetFlag,
+			GoerliFlag,
 			Unused1,
 		},
 	},

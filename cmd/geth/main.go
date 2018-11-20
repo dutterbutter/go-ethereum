@@ -190,6 +190,7 @@ func makeCLIApp() (app *cli.App) {
 		WhisperEnabledFlag,
 		DevModeFlag,
 		TestNetFlag,
+		GoerliFlag,
 		NetworkIdFlag,
 		RPCCORSDomainFlag,
 		NeckbeardFlag,
